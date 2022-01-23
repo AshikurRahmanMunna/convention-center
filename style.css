@@ -28,3 +28,16 @@ body {
     box-shadow: 0 30px 20px #81adf0;
 }
 
+@media only screen and (max-width: 767px) {
+    .slider {
+        height: calc(100vh - 90px);
+    }
+    .slider img {
+        height: calc(100vh - 90px);
+        width: auto;
+        object-fit: cover;
+    }
+    .faq-image {
+        margin-top: 20px;
+    }
+}
