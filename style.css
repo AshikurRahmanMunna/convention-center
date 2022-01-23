@@ -1,0 +1,28 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.btn-css {
+    text-decoration: none;
+    color: #3F87F5;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: all .3s ease-in-out;
+}
+.btn-css:hover {
+    background: transparent;
+    color: white;
+}
+.text-navy-blue {
+    color: #0A0826;
+}
+.our-package .card:hover {
+    background: #f1f1f1;
+}
+.custom-rounded {
+    border-radius: 20px;
+}
+.package-card-3 {
+    transform: translateY(-60px);
+}
